@@ -13,9 +13,8 @@ It’s a fun and interactive way to apply Django concepts like sessions, views, 
 - [⚙️ Setup Instructions](#setup-instructions)
 - [🕹️ How to Play](#how-to-play)
 - [📁 Folder Structure](#folder-structure)
-- [🤝 Contributing](#contributing)
-- [📝 License](#license)
-
+  
+  
 ---
 
 ## 🧠 About the Project
@@ -52,6 +51,21 @@ This project is a classic Number Guessing Game where:
 | SQLite       | Default Django DB      |
 
 ---
+## 📁 folder structure
+number_guess_game/
+├── manage.py
+├── db.sqlite3
+├── requirements.txt
+├── game_app/
+│   ├── views.py
+│   ├── urls.py
+│   ├── templates/
+│   │   └── game_app/
+│   │       ├── index.html
+│   │       └── result.html
+│   └── static/
+│       └── style.css
+
 
 ## ⚙️ Setup Instructions
 
