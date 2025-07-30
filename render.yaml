@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: number-guessing-game
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn guessgame.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: guessgame.settings
+      - key: PYTHON_VERSION
+        value: 3.11.6
