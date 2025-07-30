@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-2o!reet9um70p5m4l0dy47h0b5$ejas)=^x(veqt+$2fhl^0kh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['number-guessing-game.onrender.com']
 
 
 # Application definition
